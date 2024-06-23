@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 25px;
+}
+
+input{
+  background-color: aliceblue;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: 700px;
+  border-radius: 5px;
+  border: 1px solid aliceblue;
+  outline-color: royalblue;
+}
+
+.peopleContainer{
+  /* background-color: yellow; */
+  padding: 0 10px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.person{
+  transition: all ease cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.peopleContainer img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.discription .name{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.discription .title{
+  font-weight: 300;
+  color: rgb(199, 199, 199);
+}
